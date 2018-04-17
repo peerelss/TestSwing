@@ -1,0 +1,5 @@
+package tumblr;
+
+public class Conf {
+    static String url="curl \"https://gigilica.tumblr.com/tagged/lady+barbara/page/INDEX\" -o tumblr.html -x 127.0.0.1:1080  -H \"Host: gigilica.tumblr.com\" -H \"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0\" -H \"Accept: text/html, */*; q=0.01\" -H \"Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2\" --compressed -H \"Referer: https://gigilica.tumblr.com/tagged/lady-barbara\" -H \"X-Requested-With: XMLHttpRequest\" -H \"Cookie: tmgioct=584bd56b034f640208077880; _ga=GA1.2.1832574784.1481612290; __utma=189990958.1832574784.1481612290.1512749520.1513020761.521; __utmz=189990958.1513020761.521.378.utmcsr=3-holes-2-tits.tumblr.com|utmccn=(referral)|utmcmd=referral|utmcct=/; __unam=b3ca5e5-15a9eb0f305-3c0fd655-17; __gads=ID=a1906275c1c2a486:T=1502222538:S=ALNI_MaL0wtvXC0ZLF2bPKCAXTxpnlSRug; rxx=c3ixncev4qo.y8e74rb&v=1; logged_in=1; pfx=beab95ae9489241a128f426f6c61294f790f7a977d4c8f97965359d3e34077a9\"%\"230\"%\"231780846301\" -H \"Connection: keep-alive\"";
+}
