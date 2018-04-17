@@ -21,7 +21,7 @@ public class BDSMImage {
 
     public static void main(String[] args){
         try {
-            OkHttpClient okHttpClient = new OkHttpClient.Builder()
+            /*OkHttpClient okHttpClient = new OkHttpClient.Builder()
 //                .addInterceptor(new LoggerInterceptor("TAG"))
                     .connectTimeout(10000L, TimeUnit.MILLISECONDS)
                     .readTimeout(10000L, TimeUnit.MILLISECONDS)
@@ -33,7 +33,7 @@ public class BDSMImage {
                     .build()//
                     .execute();
             String html=response.body().string();
-            System.out.println(html);
+            System.out.println(html);*/
         }catch (Exception e){
             e.printStackTrace();
         }
